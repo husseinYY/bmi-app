@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'constants.dart';
 
 class CalculateBtn extends StatelessWidget {
-  CalculateBtn({@required this.btnTitle, @required this.onTap});
+  CalculateBtn({this.btnTitle, this.onTap});
 
   final String btnTitle;
   final Function onTap;

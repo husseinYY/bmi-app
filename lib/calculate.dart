@@ -3,10 +3,7 @@ import 'package:bmi_calculator/constants.dart';
 import 'CalculateBtn.dart';
 
 class Calculate extends StatelessWidget {
-  Calculate(
-      {@required this.bmiResult,
-      @required this.bmiText,
-      @required this.interpertation});
+  Calculate({this.bmiResult, this.bmiText, this.interpertation});
 
   final String bmiResult;
   final String bmiText;
